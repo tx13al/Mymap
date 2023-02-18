@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.mymap.FirstFloor xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Add other views or layouts here -->
+    <com.example.mymap.FirstFloor
+        android:id="@+id/floor_plan"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</com.example.mymap.FirstFloor>

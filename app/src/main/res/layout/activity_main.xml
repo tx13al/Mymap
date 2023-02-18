@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.mymap.FirstFloor
+        android:id="@+id/floor_plan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/first_floor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif"
+        android:text="First Floor"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/second_floor"
+        android:text="Second Floor"
+        tools:ignore="MissingConstraints"
+        />
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        tools:ignore="MissingConstraints"
+        />
+
+
+ <!-- Add other views or layouts here -->
+<!--
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/first_floor"
+        android:text="First Floor"
+        />
+
+    <ViewSwitcher
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/switch_fisrtfloor">
+
+        <include
+            android:id="@id/floor_plan"
+            layout="@layout/first_floor_layout"
+        />
+    </ViewSwitcher>
+   -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
